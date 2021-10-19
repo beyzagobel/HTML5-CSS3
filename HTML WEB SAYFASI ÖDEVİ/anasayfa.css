@@ -1,0 +1,252 @@
+body {
+
+    margin: 0px;
+    padding: 0px;
+    background-image: url(arkaplan.jpg);
+    font-family: times;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.sayfa {
+    width: 960px;
+    margin: 0 auto;
+    opacity: 0.8;
+
+}
+
+.icerik {
+
+    content: "";
+    display: table;
+    clear: both;
+    margin: 0px;
+
+}
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+.baslik {
+
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 400PX;
+    text-shadow: 2px 5px 3px #000000;
+    color: grey;
+    margin-top: 20px;
+    height: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #efefef;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 15px;
+
+}
+
+.baslikalti {
+
+    width: 960px;
+    margin-top: 20PX;
+}
+
+.menu {
+
+    border-radius: 10px;
+    float: left;
+    margin-left: 30px;
+    overflow: visible;
+    width: 670px;
+    height: 50px;
+    margin-bottom: 20px;
+    position: relative;
+    font-size: 20px;
+    background-color: #F1F1F1;
+
+}
+
+.menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    float: left;
+    display: block;
+
+}
+
+.menu ul li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    transition-duration: 0.5s;
+    width: 162px;
+    font-size: 15px;
+    padding: 15px;
+    margin: 2px;
+    border-radius: 5px;
+    background-color: #F1F1F1;
+}
+
+.menu ul li a:hover {
+    background-color: #CCCCCC;
+    border-radius: 10px;
+    color: darkcyan;
+
+}
+
+.menu ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #F1F1F1;
+    width: 165px;
+    border-radius: 10px;
+}
+
+.menu ul li ul li {
+    display: block
+}
+
+.menu ul li ul li a {
+    background-color: #F1F1F1;
+    text-align: left
+}
+
+.menu ul li ul li a:hover {
+    background-color: #CCCCCC;
+}
+
+.menu ul li:hover ul {
+    display: block
+}
+
+.sol {
+
+    width: 15%;
+    float: left;
+    background-color: #CCCCCC;
+    height: auto;
+
+
+}
+
+.sol ul {
+
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+.sol ul li {
+    list-style-type: none;
+    display: block;
+
+}
+
+.sol ul li a {
+    color: black;
+    display: block;
+    padding: 10px;
+    background-color: #F1F1F1;
+    text-decoration: none;
+    transition-duration: 0.5;
+    border-radius: 4px;
+
+}
+
+.sol a:hover {
+    color: darkcyan;
+    background-color: #CCCCCC;
+    border-radius: 5px;
+
+}
+
+.sag {
+    width: 15%;
+    border-radius: 10px;
+    height: auto;
+
+
+}
+
+.orta {
+    width: 57%;
+    height: auto;
+
+
+}
+
+.sutun {
+    float: left;
+    padding: 5px;
+    background-color: #E6E5E3;
+    border-radius: 10px;
+    margin-left: 30px;
+
+
+}
+
+.footer {
+    border-radius: 10px;
+    background-color: #E6E5E3;
+    padding: 5px;
+    color: burlywood;
+    position: relative;
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    opacity: 0.8;
+}
+
+h2 {
+    font-size: 20px;
+    box-shadow: 2px 2px 2px #000000;
+    text-shadow: 1px 1px 3px #000000;
+    border-radius: 5px;
+
+}
+
+h3 {
+
+    text-shadow: 1px 1px 3px #000000;
+    margin: 0px;
+    padding: 10px;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+
+
+p {
+    margin: 10px 10px;
+
+
+}
+
+.sosyal img {
+
+    border-radius: 15px;
+    margin-right: 10px;
+    padding: 5px;
+
+}
+
+.sosyal {
+    margin-left: 5 px;
+    margin-right: 20px;
+    float: right;
+
+}

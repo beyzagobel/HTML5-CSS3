@@ -1,0 +1,278 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(arkaplan.jpg);
+    font-family: times;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+.sayfa {
+    width: 960px;
+    margin: 0 auto;
+    opacity: 0.8;
+
+}
+
+.icerik {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.baslik {
+
+
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 400PX;
+    text-shadow: 2px 5px 3px #000000;
+    color: grey;
+    margin-top: 20px;
+    height: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #efefef;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 15px;
+
+}
+
+.baslikalti {
+    margin-left: 20px;
+    width: 960px;
+    margin-top: 15PX;
+
+}
+
+.sosyal img {
+
+    border-radius: 15px;
+    margin-right: 10px;
+    padding: 5px;
+
+}
+
+.sosyal {
+
+    margin-right: 40px;
+    float: right;
+
+}
+
+.sol {
+
+    background-color: #CCCCCC;
+    width: 20%;
+    height: auto;
+    margin: 0 auto;
+    float: left;
+
+
+}
+
+.sol ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+
+}
+
+.sol li ul {
+    position: absolute;
+    display: block;
+    left: 190px;
+    top: 0px;
+    display: none;
+    background-color: #CCCCCC;
+    border-radius: 10px;
+}
+
+.sol ul li {
+    position: relative;
+}
+
+.sol li:hover ul {
+    display: block;
+}
+
+.sol ul li a {
+    margin: 2px;
+    border-radius: 5px;
+    padding: 20px;
+    display: block;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    background-color: #F1F1F1;
+}
+
+.sol a {
+    color: #FFFFFF;
+}
+
+.sol a:hover {
+    background-color: #CCCCCC;
+    color: darkcyan;
+    border-radius: 15px;
+}
+
+.sutun {
+    float: left;
+    padding: 2px;
+    border-radius: 10px;
+    margin-left: 40px;
+
+}
+
+.orta {
+    padding: 10px;
+    width: 68%;
+    background-color: #E6E5E3;
+
+}
+
+
+input[type=text] {
+    transition: width 0.4s ease-in-out;
+    width: 300px;
+    height: 30px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #eee;
+    margin-left: 15px;
+    border-radius: 20px;
+
+}
+
+input[type=text]:focus {
+
+    width: 50%;
+    outline: none;
+    border: 1px solid grey;
+
+}
+
+select {
+
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 5px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #eee;
+    margin-left: 15px;
+    border-radius: 20px;
+    transition: border-color .8s ease-out;
+    width: 300px;
+
+}
+
+select:focus {
+    outline: none;
+    border: 1px solid grey;
+
+}
+
+input[type=submit] {
+    border-radius: 20px;
+    margin: 5px;
+    width: 150px;
+    height: 30px;
+}
+
+input[type=submit]:hover {
+
+    background-color: #CCCCCC;
+
+}
+
+input[type=reset] {
+
+    border-radius: 20px;
+    margin: 5px;
+    width: 150px;
+    height: 30px;
+}
+
+input[type=reset]:hover {
+
+    background-color: #CCCCCC;
+
+}
+
+textarea {
+
+    width: 300px;
+    height: 100px;
+    margin: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #eee;
+    border-left: 3px solid;
+    margin-left: 15px;
+    border-left-color: salmon;
+    border-radius: 4px;
+    transition: border-color .8s ease-out;
+    resize: none;
+}
+
+.form {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    color: black;
+    box-shadow: 2px 2px 2px #000000;
+    text-shadow: 1px 1px 3px #000000;
+    border-radius: 5px;
+
+}
+
+p {
+    margin: 10px 10px;
+
+
+}
+
+.footer {
+    border-radius: 10px;
+    background-color: #E6E5E3;
+    padding: 5px;
+    color: burlywood;
+    position: relative;
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    opacity: 0.8;
+
+}
+
+h3 {
+
+    text-shadow: 1px 1px 3px #000000;
+    margin: 2px;
+    border-radius: 5px;
+    padding: 20px;
+    display: block;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    background-color: #F1F1F1;
+}
